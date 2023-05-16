@@ -1,0 +1,19 @@
+Delete VOTE: nothing happen, service was not affected.
+
+Delete WORKER: Nothing happen, service was not affected. 
+			   AGE of course changes as pods has been recreated.
+			   
+Delete DB:  from logs seems there was some outage at ceartain point.
+			Data  lost
+			AGE of course changes as pods has been recreated.
+			IP of POD changed (of course)
+			
+			
+			
+What happens after db pod deletion: 
+										DB: indication of shutdown and restart of POOD.
+										error of "ERROR:  relation "votes" does not exist at character 38"
+										
+										WORKER: Connected to db / Connecting to redis
+										found 10.103.15.62 (cluster IP) Redis
+		
