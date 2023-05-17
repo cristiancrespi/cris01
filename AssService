@@ -1,0 +1,3 @@
+First of all i check POD if running
+Second i check if service is running
+Last i do check if SELECTOR of svc is same as RS
